@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_line - function to print characters
+* print_diagonal - function to print diagonal characters
 *@n: parameter defined
 * Return: void
 */
@@ -14,12 +14,15 @@ void print_diagonal(int n)
 
 	else
 	{
-		int i;
+		int i, j;
 
 		for (i = 1 ; i <= n ; i++)
-			_putchar(' ');
+		{
+			for (j = 0 ; j <= i ; j++)
+				_putchar(' ');
 			_putchar('\\');
-	
-		_putchar('\n');
+			_putchar('\n');
+		}
+
 	}
 }

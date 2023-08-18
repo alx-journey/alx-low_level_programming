@@ -2,7 +2,7 @@
 
 /**
 * print_diagonal - function to print diagonal characters
-*@n: parameter defined
+*@n: parameter n passed
 * Return: void
 */
 

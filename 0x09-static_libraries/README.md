@@ -1,1 +1,1 @@
-Creating Static Library
+statics library in c
